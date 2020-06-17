@@ -1,0 +1,30 @@
+{
+  "name": "vue-gyak-komponensek",
+  "version": "1.0.0",
+  "description": "vue-gyak-komponensek",
+  "main": "index.js",
+  "scripts": {
+    "liveserver": "live-server --port=8080 --host=localhost --open=",
+    "dev": "concurrently \"npm run liveserver\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikilaus/vue-gyak-komponensek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikilaus/vue-gyak-komponensek/issues"
+  },
+  "homepage": "https://github.com/mikilaus/vue-gyak-komponensek#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "live-server": "^1.2.1"
+  }
+}
